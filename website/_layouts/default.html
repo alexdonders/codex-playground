@@ -8,13 +8,10 @@
   <header>
     <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
     <nav>
-      <ul>
-        <li><a href="{{ '/about' | relative_url }}">About</a></li>
-        <li><a href="{{ '/research/' | relative_url }}">Research</a></li>
-      </ul>
+      <a href="{{ '/' | relative_url }}">Home</a> |
+      <a href="{{ '/about' | relative_url }}">About</a>
     </nav>
   </header>
-
   <main>
     {{ content }}
   </main>
